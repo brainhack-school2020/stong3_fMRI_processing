@@ -1,4 +1,4 @@
-# stong3_fMRI_processing_and_atlas_extraction
+# fMRI preprocessing using fMRIPrep and Atlas Extraction using Nilearn
 
 The goal of this project will be to use a subset of an open fMRI dataset (Prevent-AD) to create a tutorial in the form of
 a Jupiter notebook, to pre-process fMRI data using fMRIPrep. The project will also use Nilearn to extract functional
