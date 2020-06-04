@@ -22,7 +22,7 @@ for folders in */; do #This starts the loop. For each folder in the files_to_con
     echo "...Directory for ${subj} converted anat BL created (session 1)"
     mkdir -p /converted_files/sub-${subj}/ses-FU12/anat
     echo "...Directory for ${subj} converted anat FU12 created (session 2)"
-    mkdir -p /converted_files/sub-${subj}/ses-BL00/func
+    mkdir -p /converted_files/sub-${subj}/ses-BL00/func #The p create intermediate directories too.
     echo "...Directory for ${subj} converted func BL created (session 1)"
     mkdir -p /converted_files/sub-${subj}/ses-FU12/func
     echo "...Directory for ${subj} converted func FU12 created (session 2)"
