@@ -15,6 +15,8 @@ Version: 0.1
 Future updates:
 - Integrate argument parsers for the subjects/sessions/confounds/kind of connectivity matrices
 - Modify the pipeline to further scrub the frame-wise displacement? (look at fmripop: https://github.com/brain-modelling-group/fmripop)
+- Integrate with pybids in the sourcefolder to obtain a list of all subjects to process. This would allow less trouble with
+creating lists manually.3
 """
 ##############################################################################################################
 
