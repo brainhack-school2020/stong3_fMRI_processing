@@ -49,3 +49,12 @@ The initial project aimed to create a full tutorial on how to process fMRI image
 |                                                                                                                            | - Create nice brain image                                                                                              |
 
 To explain more clearly what happened, at the end of week 3, after I was able to convert the ```.mnc``` images in ```.nii``` format and 'BIDS-like' format, the bids-validator would not work due to the fact that there is usually a ```.json``` file that accompagnies the images and provide information that is necessary for pre-processing. After asking around, unless I would know enough about ```.mnc``` format to extract the necessary information in the headers to create the ```.json``` files myself, there was nothing I could do to transform in bids. As such, I had to change the project to use data that was already in bids.
+
+### Objective
+Use 2 visits of a single subject in the Prevent-AD cohort (anonymized) in bids format to illustrate pre-processing using fMRIPrep and to extract connectivity matrices using Nilearn.
+
+### Tools
+Docker containers were used to pull the bids-validator and fMRIPrep. Nilearn was used on the pre-processed data to generate connectivity matrices
+
+### Deliverables
+Create 2 Jupyter notebooks: 1) A tutorial on using mnc2bids (first project, not currently working) and 2) A tutorial on using fMRIPrep and Nilearn. 
